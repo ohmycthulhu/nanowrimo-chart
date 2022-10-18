@@ -1,0 +1,45 @@
+.chart-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    padding: 0 4rem;
+}
+
+.chart {
+    height: 100%;
+    width: 100%;
+}
+
+.chart-label-left-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+}
+
+.chart-label-left {
+    transform: translateX(-50%) rotate(-90deg);
+    transform-origin: center top;
+    white-space: nowrap;
+}
+
+
+.chart-label-right-container {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+}
+
+.chart-label-right {
+    transform: translateX(50%) rotate(90deg);
+    transform-origin: center top;
+    white-space: nowrap;
+}

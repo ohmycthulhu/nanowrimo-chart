@@ -1,0 +1,47 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "SKIP_PREFLIGHT_CHECK=true rescripts start",
+    "build": "SKIP_PREFLIGHT_CHECK=true rescripts build",
+    "test": "rescripts test",
+    "eject": "rescripts eject",
+    "serve": "serve build -s -p 3001"
+  },
+  "dependencies": {
+    "@react-hook/window-size": "3.0.7",
+    "d3": "^5.16.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "momentjs": "^2.0.0",
+    "node-sass": "^7.0.3",
+    "react": "^17.0.2",
+    "react-charts": "^3.0.0-beta.30",
+    "react-dom": "^17.0.2",
+    "react-json-tree": "^0.15.0",
+    "react-resizable": "^1.10.1",
+    "react-scripts": "3.4.3",
+    "styled-components": "^5.1.1"
+  },
+  "devDependencies": {
+    "@rescripts/cli": "^0.0.14",
+    "@rescripts/rescript-use-babel-config": "^0.0.10",
+    "@rescripts/rescript-use-eslint-config": "^0.0.11",
+    "babel-eslint": "10.1.0",
+    "serve": "^12.0.0"
+  },
+  "resolutions": {
+    "typescript": "^4.3.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

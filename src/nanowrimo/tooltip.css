@@ -1,0 +1,13 @@
+.nanowrimo-tooltip {
+  border: 1px solid #5F6272;
+  padding: 1.25rem;
+  background: #ffffff;
+}
+
+.nanowrimo-tooltip-date {
+  font-weight: 700;
+}
+
+.nanowrimo-tooltip-cumulative {
+  color: #DA231B;
+}
